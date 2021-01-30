@@ -1,0 +1,15 @@
+main {
+    min-width: 384px;
+    display: flex;
+    flex-wrap: wrap;
+    order: 1;
+    width: 50%;
+}
+
+aside {
+    min-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    width: 50%;
+}
