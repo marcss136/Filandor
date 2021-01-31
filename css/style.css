@@ -65,9 +65,16 @@ nav ul a {
     margin-left: 5px;
 }
 
+.contenido-principal {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
 main {
     width: 100%;
-    padding: 15px 20px;
+    padding-bottom: 15px;
 }
 
 main section h2 {
@@ -88,14 +95,12 @@ main section ul li a {
 
 aside {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 aside img {
     width: 100%;
     display: block;
     margin: auto;
+    border-radius: 25px;
 }

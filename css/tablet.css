@@ -1,15 +1,38 @@
-main {
-    min-width: 384px;
+body {
+    margin: 0;
+}
+
+header {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.contenido-principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    min-width: 364px;
+    padding-right: 10px;
     order: 1;
     width: 50%;
+    height: 100%;
+    margin-bottom: 0;
 }
 
 aside {
-    min-width: 350px;
-    display: flex;
-    flex-wrap: wrap;
+    min-width: 344px;
+    justify-content: end;
+    padding-left: 10px;
     order: 2;
     width: 50%;
+    height: 100%;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 10px;
 }
